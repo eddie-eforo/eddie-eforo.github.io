@@ -1,5 +1,5 @@
 ---
-title: "YOUR NAME"
+title: "Eddie Eforo"
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
   image: img/profile.png
@@ -38,4 +38,6 @@ Minor in Business Administration
 
 Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
 
+getwd()
+library(tidyverse)
 
