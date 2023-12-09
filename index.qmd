@@ -2,7 +2,7 @@
 title: "Eddie Eforo"
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
-  image: img/profile.png
+  image: C:\Users\Owner\Downloads\IMG_2220.jpg
   image-width: 15em
   image-shape: round # rectangle  round  rounded
   
