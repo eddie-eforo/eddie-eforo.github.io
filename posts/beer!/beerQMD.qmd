@@ -1,0 +1,17 @@
+---
+title: "Beer!"
+author: "Eddie Eforo"
+date: "2023-12-9"
+categories: [news]
+---
+
+
+Oh this is actually pretty cool, I am writing code for the website that I made in class about a data frame that's pretty awesome... Beer! still figuring it out but the following statistics crome from the data frame "https://bcdanl.github.io/data/beer_markets.csv" describing difference beer brands and their quantity and populartity amoung different markets.
+
+
+
+```{r}
+beer_mrkt <- read.csv("https://bcdanl.github.io/data/beer_markets.csv")
+```
+
+

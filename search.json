@@ -102,7 +102,7 @@
     "href": "blog-listing.html",
     "title": "Eddies Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nspotify analysis\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nEddie Eforo\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nnyc restaraurant analysis\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nEddie Eforo\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nEddie Eforo\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nspotify analysis\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nEddie Eforo\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nnyc restaraurant analysis\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nEddie Eforo\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nEddie Eforo\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nBeer!\n\n\n\n\n\n\n\n\n\nDec 9, 2023\n\n\nEddie Eforo\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "project.html",
@@ -194,5 +194,12 @@
     "title": "nyc restaraurant analysis",
     "section": "",
     "text": "The following statistics and data visualizations are obtained through the data frame “https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.csv” and provide information regarding new yokr city restaurants.\n\nrestaurant &lt;- read.csv(\"https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.csv\")\n\n\nskimr::skim(restaurant)\n\n\nData summary\n\n\nName\nrestaurant\n\n\nNumber of rows\n17633\n\n\nNumber of columns\n12\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n10\n\n\nnumeric\n2\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\nDBA\n0\n1\n1\n75\n0\n13914\n0\n\n\nBORO\n0\n1\n5\n13\n0\n5\n0\n\n\nSTREET\n0\n1\n5\n40\n0\n2038\n0\n\n\nCUISINE.DESCRIPTION\n0\n1\n4\n30\n0\n87\n0\n\n\nINSPECTION.DATE\n0\n1\n10\n10\n0\n751\n0\n\n\nACTION\n0\n1\n33\n47\n0\n2\n0\n\n\nVIOLATION.CODE\n0\n1\n3\n5\n0\n60\n0\n\n\nVIOLATION.DESCRIPTION\n0\n1\n19\n940\n0\n101\n0\n\n\nCRITICAL.FLAG\n0\n1\n8\n12\n0\n2\n0\n\n\nGRADE\n0\n1\n1\n1\n0\n3\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nCAMIS\n0\n1\n47112537.51\n4197913.0\n30191841\n41551354\n50049290\n50094455\n50133690\n▁▁▃▁▇\n\n\nSCORE\n0\n1\n10.44\n5.9\n0\n7\n10\n12\n86\n▇▁▁▁▁"
+  },
+  {
+    "objectID": "posts/beer!/beerQMD.html",
+    "href": "posts/beer!/beerQMD.html",
+    "title": "Beer!",
+    "section": "",
+    "text": "Oh this is actually pretty cool, I am writing code for the website that I made in class about a data frame that’s pretty awesome… Beer! still figuring it out but the following statistics crome from the data frame “https://bcdanl.github.io/data/beer_markets.csv” describing difference beer brands and their quantity and populartity amoung different markets.\n\nbeer_mrkt &lt;- read.csv(\"https://bcdanl.github.io/data/beer_markets.csv\")"
   }
 ]

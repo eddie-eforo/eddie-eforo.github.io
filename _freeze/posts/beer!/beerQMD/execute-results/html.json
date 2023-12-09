@@ -1,0 +1,14 @@
+{
+  "hash": "7db098a2d2a83e9bc97f9bce1599a920",
+  "result": {
+    "markdown": "---\ntitle: \"Beer!\"\nauthor: \"Eddie Eforo\"\ndate: \"2023-12-9\"\ncategories: [news]\n---\n\n\n\nOh this is actually pretty cool, I am writing code for the website that I made in class about a data frame that's pretty awesome... Beer! still figuring it out but the following statistics crome from the data frame \"https://bcdanl.github.io/data/beer_markets.csv\" describing difference beer brands and their quantity and populartity amoung different markets.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nbeer_mrkt <- read.csv(\"https://bcdanl.github.io/data/beer_markets.csv\")\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
