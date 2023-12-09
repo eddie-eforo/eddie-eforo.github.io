@@ -1,0 +1,24 @@
+---
+title: "nyc restaraurant analysis"
+author: "Eddie Eforo"
+date: "2023-12-9"
+categories: [news]
+---
+
+
+
+The following statistics and data visualizations are obtained through the data frame "https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.csv" and provide information regarding new yokr city restaurants.
+
+```{r}
+restaurant <- read.csv("https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.csv")
+```
+
+
+
+
+
+
+
+
+
+

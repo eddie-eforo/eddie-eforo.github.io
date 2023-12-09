@@ -1,0 +1,14 @@
+{
+  "hash": "6ea0ca7f007cf062916e0505d802fbdb",
+  "result": {
+    "markdown": "---\ntitle: \"nyc restaraurant analysis\"\nauthor: \"Eddie Eforo\"\ndate: \"2023-12-9\"\ncategories: [news]\n---\n\n\n\n\nThe following statistics and data visualizations are obtained through the data frame \"https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.csv\" and provide information regarding new yokr city restaurants.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nrestaurant <- read.csv(\"https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.csv\")\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
