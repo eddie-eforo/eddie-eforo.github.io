@@ -4,3 +4,18 @@ author: "Eddie Eforo"
 date: "2023-12-9"
 categories: [news]
 ---
+
+
+
+The following statistics and data visualizations are obtained through the data frame "Spotify All" and provide informative and interesting information about Spotify.
+
+```{r}
+spotify_all <- read.csv("https://bcdanl.github.io/data/spotify_all.csv")
+```
+
+
+```{r}
+skimr::skim(spotify_all)
+```
+
+

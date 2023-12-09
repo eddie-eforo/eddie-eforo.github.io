@@ -180,5 +180,12 @@
     "title": "DANL 200: Introduction to Data AnalyticsProject",
     "section": "2.7 Inserting a HTML page",
     "text": "2.7 Inserting a HTML page"
+  },
+  {
+    "objectID": "posts/spotify data blog/spotifyQMD.html",
+    "href": "posts/spotify data blog/spotifyQMD.html",
+    "title": "spotify analysis",
+    "section": "",
+    "text": "The following statistics and data visualizations are obtained through the data frame “Spotify All” and provide informative and interesting information about Spotify.\n\nspotify_all &lt;- read.csv(\"https://bcdanl.github.io/data/spotify_all.csv\")\n\n\nskimr::skim(spotify_all)\n\n\nData summary\n\n\nName\nspotify_all\n\n\nNumber of rows\n198005\n\n\nNumber of columns\n7\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\ncharacter\n4\n\n\nnumeric\n3\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: character\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmin\nmax\nempty\nn_unique\nwhitespace\n\n\n\n\nplaylist_name\n0\n1\n2\n55\n0\n2184\n0\n\n\nartist_name\n0\n1\n1\n117\n0\n18866\n0\n\n\ntrack_name\n0\n1\n1\n216\n0\n64115\n0\n\n\nalbum_name\n0\n1\n1\n255\n0\n35497\n0\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\npid\n0\n1\n323435.50\n466890.21\n0\n738\n1476\n999210\n999998\n▇▁▁▁▃\n\n\npos\n0\n1\n54.39\n48.35\n0\n17\n40\n79\n248\n▇▃▂▁▁\n\n\nduration_ms\n0\n1\n234740.84\n132918.60\n0\n198000\n224693\n258533\n20744575\n▇▁▁▁▁"
   }
 ]
