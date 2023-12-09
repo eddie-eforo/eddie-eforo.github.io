@@ -9,16 +9,16 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/edward-eforo-4404072a4/
     - icon: instagram
       text: Instagram
       href: https://instagram.com
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/eddie-eforo/eddie-eforo.github.io
     - icon: file-earmark-pdf
       text: Resumé
-      href: https://GITHUB_USERNAME.github.io/resume-example.pdf
+      href: C:\Users\Owner\Downloads\Resume.pdf
     - icon: mailbox
       text: Email
       href: mailto:YOUR_EMAIL@geneseo.edu
