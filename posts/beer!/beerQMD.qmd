@@ -40,6 +40,8 @@ After using functions to transform the code we can find more informative and hel
  
 
 ```{r}
+library(dplyr)
+library(tidyverse)
 beer_mkts %>%
   group_by(market) %>%
   summarise(total_floz = sum(beer_floz)) %>%
@@ -50,15 +52,17 @@ beer_mkts %>%
 ```
 Here are the top five markets for beer in the united states. it makes sence that the biggest markets are fun citys, with the accept ion of Chicago... they drink becasue their pizza is weird and their Bears fans.
 
+
 ```{r}
 beer_mkts %>%
   group_by(brand, market) %>%
   summarise(total_floz = sum(beer_floz)) %>%
   arrange(brand, desc(total_floz)) %>%
-  slice_head(n = 2) %>% 
+  slice_head(n = 5) %>% 
   print(n=25)
+
 ```
-above show the top 2 beer markets for each specific beer brand for example the market that purchases the second most Busch light inst even a city its just Rural Iowa. Busch light per capita in Iowa must be crazy.
 
 
+This shows the top five markets for each individual brand of beer, and it shows how all of Iowa drinks Busch light and nothing else.
 
