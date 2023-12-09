@@ -11,7 +11,54 @@ Oh this is actually pretty cool, I am writing code for the website that I made i
 
 
 ```{r}
-beer_mrkt <- read.csv("https://bcdanl.github.io/data/beer_markets.csv")
+beer_mkts <- read.csv("https://bcdanl.github.io/data/beer_markets.csv")
 ```
+
+Variable Description
+hh`: an identifier of the household;
+X_purchase_desc`: details on the purchased item;
+quantity`: the number of items purchased;
+brand`: Bud Light, Busch Light, Coors Light, Miller Lite, or Natural Light;
+dollar_spent`: total dollar value of purchase;
+beer_floz`: total volume of beer, in fluid ounces;
+price_per_floz`: price per fl.oz. (i.e., beer spent/beer floz);
+container`: the type of container;
+promo`: Whether the item was promoted (coupon or otherwise);
+market`: Scan-track market (or state if rural);
+demographic data, including gender, marital status, household income, class of work, race, education, age, the size of household, and whether or not the household has a microwave or a dishwasher.
+
+
+
+```{r}
+skimr::skim(beer_mkts)
+```
+
+The above is basic summery statistics prior to data transformation. 
+
+After using functions to transform the code we can find more informative and helpful statistics that are more helpful.
+
+ 
+
+```{r}
+beer_mkts %>%
+  group_by(market) %>%
+  summarise(total_floz = sum(beer_floz)) %>%
+  arrange(desc(total_floz)) %>%
+  slice_head(n = 5)
+
+
+```
+Here are the top five markets for beer in the united states. it makes sence that the biggest markets are fun citys, with the accept ion of Chicago... they drink becasue their pizza is weird and their Bears fans.
+
+```{r}
+beer_mkts %>%
+  group_by(brand, market) %>%
+  summarise(total_floz = sum(beer_floz)) %>%
+  arrange(brand, desc(total_floz)) %>%
+  slice_head(n = 2) %>% 
+  print(n=25)
+```
+above show the top 2 beer markets for each specific beer brand for example the market that purchases the second most Busch light inst even a city its just Rural Iowa. Busch light per capita in Iowa must be crazy.
+
 
 
