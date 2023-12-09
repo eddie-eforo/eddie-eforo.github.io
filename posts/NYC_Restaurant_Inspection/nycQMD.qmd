@@ -17,6 +17,9 @@ restaurant <- read.csv("https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspe
 
 
 
+```{r}
+skimr::skim(restaurant)
+```
 
 
 
