@@ -19,3 +19,30 @@ skimr::skim(spotify_all)
 ```
 
 
+```{r}
+library(tidyverse)
+```
+
+```{r}
+library(dplyr)
+```
+
+```{r}
+top_artist <- spotify_all %>%
+  group_by(artist_name) %>%
+  summarize(artist_count = n()) %>%
+  arrange(desc(artist_count)) %>%
+  head(top_artist, n =10)
+
+```
+
+```{r}
+top_artist
+```
+```{r}
+ggplot(spotify_all %>% filter(artist_name %in% top_artist$artist_name), aes(x = pos, fill = artist_name)) + 
+  geom_bar(position = "dodge")
+```
+
+
+
