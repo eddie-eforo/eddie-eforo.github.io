@@ -2,6 +2,9 @@
 title: "Beer!"
 author: "Eddie Eforo"
 date: "2023-12-9"
+image: IMG_31209.jpg
+image-width: 15em
+image-height: 15em
 categories: [news]
 ---
 
