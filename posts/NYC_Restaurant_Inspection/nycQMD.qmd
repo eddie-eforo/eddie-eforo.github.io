@@ -14,7 +14,13 @@ restaurant <- read.csv("https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspe
 ```
 
 
+```{r}
+library(tidyverse)
+```
 
+```{r}
+library(dplyr)
+```
 
 
 ```{r}
@@ -22,6 +28,27 @@ skimr::skim(restaurant)
 ```
 
 
+```{r}
+grade_a <- restaurant %>%
+  filter(GRADE == "A") %>%
+  nrow()
+```
+
+```{r}
+print(grade_a)
+```
+```{r}
+ggplot(data = restaurant, aes(x = SCORE)) +
+  geom_bar() +
+  facet_wrap(~ `GRADE` )
+
+```
 
 
+
+```{r}
+ggplot(restaurant, aes(x = GRADE )) +
+  geom_bar() +
+  facet_wrap(~ BORO )
+```
 
